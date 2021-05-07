@@ -1,7 +1,7 @@
 #/usr/local/bin/bash
 
 function f1 {
-	typeset x
+	typeset x  # x remains private to the function and it's value is not changed
 	x=7
 	y=8
 
