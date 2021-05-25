@@ -1,8 +1,9 @@
 #/usr/local/bin/bash
 
 
-for i in {1..EOF}
+while
+[[ $# -gt 0 ]]
 do
-	echo $i
-
+	echo $1
+	shift
 done
